@@ -48,7 +48,7 @@ DB_NAME=techfest
 
 ### 3. Run the dev server
 ```bash
-npx run dev
+npm run dev
 ```
 
 Visit: [http://localhost:3000](http://localhost:3000)
