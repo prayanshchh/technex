@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node src/server.ts"
+    "dev": "ts-node src/app.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^5.2.1",
-    "fastify-plugin": "^5.0.1"
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "fastify": "^5.2.2",
+    "fastify-plugin": "^5.0.1",
+    "mercurius": "^16.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.0"
   },
   "devDependencies": {
     "@fastify/type-provider-typebox": "^5.1.0",
